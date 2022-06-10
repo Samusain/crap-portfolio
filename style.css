@@ -864,6 +864,20 @@ nav ul li a {
         color: #3dd3d8;
     }
 
-    @media only screen and{min-width=768px} {
+    @media screen {min-width: 768px} {
+        .header h2 {
+            font-family: "Millik", sans-serif;
+            font-size: 50px;
+        }
+        .header p {
+            height: 84px;
+            font-size: 18px!important;
+            line-height: 28px!important;
+            margin-bottom: 35px;
+            max-width: 100%!important;
+            font-weight: 300;
+        }
         
+        
+        }
     }
